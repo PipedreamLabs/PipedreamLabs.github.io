@@ -1,0 +1,260 @@
+@font-face {
+    font-family: "Euclid_Circular_B";
+    src: url('assets/fonts/myFonts/EuclidCircularB-Regular.otf');
+  }
+
+.container {
+    max-width: 1600px;
+    margin-left: 144px;
+    margin-right: 144px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Euclid_Circular_B";
+}
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+header h1 {
+    margin-top: 48px;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    margin-bottom: 0px;
+    font-weight: normal;
+}
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 48px;
+}
+button {
+    width: 180px;
+    height: 46px;
+    background-color: #2e4da7;
+    border-radius: 12px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+}
+button:hover {
+    background-color: #1a2b5e;
+    cursor: pointer;
+}
+.bottles {
+    margin-top: 75px;
+}
+.shoesText {
+    /* change width to 373 after changing font-family */
+    width: 360px;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    margin-top: 85px;
+}
+.womanWithWater {
+    margin-top: 100px
+}
+.howItWorksText {
+    font-size: 26px;
+    line-height: 35px;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 120px;
+}
+.howItWorksSection {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+.howItWorksSectionItem {
+    width: 255px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.howItWorksSectionItemNumber {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #2E4DA7;
+    color: white;
+    font-size: 16px;
+    line-height: 29px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.howItWorksSectionItemTitle {
+    font-size: 20px;
+    line-height: 22px;
+    color: #2E4DA7;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 14px;
+}
+.howItWorksSectionItemText {
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 5px;
+}
+.squareBlock {
+    position: relative;
+    margin-top: 130px;
+    width: 864px;
+    height: 500px;
+}
+.squareLeft {
+    position: absolute;
+    width: 351.48px;
+    height: 351.48px;
+    left: 100px;
+    top: 0px;
+    background: #F4F3F6;
+    transform: rotate(-15deg);
+}
+.squareRight {
+    position: absolute;
+    width: 351.48px;
+    height: 351.48px;
+    left: 412px;
+    top: 100px;
+    background: #F4F3F6;
+    transform: rotate(15deg);
+}
+.underButtonText {
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.5;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    width: 141px;
+    text-align: center;
+}
+footer {
+    margin-top: 120px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.footerTitle {
+    text-align: center;
+    font-size: 26px;
+    line-height: 35px;
+    font-weight: normal;
+}
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    width: 620px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.footerItem {
+    width: 295px;
+}
+.footerItemTitle {
+    font-size: 14px;
+    line-height: 21px;
+    color: #2E4DA7;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+.footerItemText {
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0px;
+}
+@media (max-width: 650px) {
+    .container{
+        max-width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    header h1 {
+        font-size: 26px;
+        line-height: 35px;
+    }
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .howItWorksSection {
+        flex-direction: column;
+        align-items: center;
+        width: 250px;
+    }
+    .shoesText {
+        font-size: 16px;
+        line-height: 23px;
+        width: 300px;
+    }
+    .howItWorksText {
+        margin-top: 50px;
+    }
+    .howItWorksSectionItemNumber {
+        display: none;
+    }
+    .howItWorksSectionItem {
+        align-items: flex-start;
+    }
+    .howItWorksSectionItemText {
+        text-align: left;
+    }
+    .squareLeft {
+        width: 199px;
+        height: 199px;
+        left: 0px;
+        top: 40px;
+    }
+    .squareRight {
+        width: 199px;
+        height: 199px;
+        left: 173px;
+        top: 100px;
+
+    }
+    .squareBlock {
+        margin-top: 20px;
+        width: 100%;
+        height: 345px;
+    }
+    .womanWithWater {
+        width: 255px;
+        height: 300px;
+    }
+    footer {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .footerTitle {
+        margin: 0px;
+    }
+    .footerContainer {
+        width: 300px;
+    }
+    .bottles {
+        width: 100%;
+    }
+    .footerItem {
+        margin-top: 30px;
+    }
+    .row {
+        margin-top: 0px;
+    }
+}
