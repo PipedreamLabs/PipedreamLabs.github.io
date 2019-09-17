@@ -1,11 +1,11 @@
 @font-face {
     font-family: "EuclidCircularB Regular";
-    src: url('assets/fonts/EuclidCircularB-Regular.otf');
+    src: url('/fonts/EuclidCircularB-Regular.otf');
   }
 
 @@font-face {
   font-family: "EuclidCircularB Light";
-  src: url('assets/fonts/EuclidCircularB-Regular.otf');
+  src: url('/fonts/EuclidCircularB-Regular.otf');
 }
 }
 
