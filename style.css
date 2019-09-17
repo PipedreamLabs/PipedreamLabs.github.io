@@ -24,9 +24,15 @@ header {
     flex-direction: column;
     width: 100%;
 }
+
+h1, h2, 3 {
+      font-family: 'EuclidCircularB Regular';
+}
+p {
+      font-family: 'EuclidCircularB Light';
+}
 header h1 {
     margin-top: 48px;
-    font-family: 'EuclidCircular Regular';
     font-size: 40px;
     line-height: 52px;
     text-align: center;
