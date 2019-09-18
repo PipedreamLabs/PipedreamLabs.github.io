@@ -105,6 +105,7 @@ strong {
 .howItWorksSectionItemNumber {
     width: 30px;
     height: 30px;
+    font-family: 'EuclidCircularBRegular';
     border-radius: 15px;
     background-color: #2E4DA7;
     color: white;
@@ -124,15 +125,16 @@ strong {
 }
 .howItWorksSectionItemText {
     font-size: 20px;
-    line-height: 31px;
+    line-height: 29px;
     margin-top: 5px;
     font-family: 'EuclidCircularBLight';
+    text-align: center;
 }
 .squareBlock {
     position: relative;
     margin-top: 140px;
     width: 864px;
-    height: 500px;
+    height: 545px;
     overflow: hidden;
 }
 .squareLeft {
@@ -231,7 +233,7 @@ footer {
         width: 260px;
     }
     .howItWorksText {
-        margin-top: 80px;
+        margin-top: 100px;
     }
     .howItWorksSectionItemNumber {
         display: none;
