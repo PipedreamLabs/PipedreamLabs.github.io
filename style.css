@@ -97,7 +97,7 @@ strong {
     width: 800px;
 }
 .howItWorksSectionItem {
-    width: 250px;
+    width: 190px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -124,8 +124,8 @@ strong {
     margin-top: 14px;
 }
 .howItWorksSectionItemText {
-    font-size: 20px;
-    line-height: 29px;
+    font-size: 16px;
+    line-height: 23px;
     margin-top: 5px;
     font-family: 'EuclidCircularBLight';
     text-align: center;
@@ -242,7 +242,7 @@ footer {
         align-items: flex-start;
     }
     .howItWorksSectionItemText {
-        text-align: left;
+        text-align: center;
     }
     .squareLeft {
         width: 199px;
