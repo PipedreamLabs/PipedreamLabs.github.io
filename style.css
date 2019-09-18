@@ -185,6 +185,7 @@ footer {
     width: 295px;
 }
 .footerItemTitle {
+    font-family: 'EuclidCircularBRegular';
     font-size: 14px;
     line-height: 21px;
     color: #2E4DA7;
