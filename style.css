@@ -142,6 +142,7 @@ button:hover {
     top: 0px;
     background: #F4F3F6;
     transform: rotate(-15deg);
+    overflow: hidden;
 }
 .squareRight {
     position: absolute;
@@ -151,6 +152,7 @@ button:hover {
     top: 100px;
     background: #F4F3F6;
     transform: rotate(15deg);
+    overflow: hidden;
 }
 .underButtonText {
     font-size: 12px;
