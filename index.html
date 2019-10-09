@@ -21,11 +21,21 @@
     }}();
   </script>
   <script type="text/javascript">
-    var link = document.getElementById('first-cta');
+    var link = document.getElementById('top-cta');
     analytics.trackLink(link, 'CTA Clicked', {
       location: 'top',
       color: 'Wim blue',
-      text: 'Request a pss',
+      text: 'Request a pass',
+      type: 'Button',
+      pageTitle: document.title
+    });
+  </script>
+  <script type="text/javascript">
+    var link = document.getElementById('bottom-cta');
+    analytics.trackLink(link, 'CTA Clicked', {
+      location: 'bottom',
+      color: 'Wim blue',
+      text: 'Request a pass',
       type: 'Button',
       pageTitle: document.title
     });
@@ -40,9 +50,9 @@
       <h1>All the seltzer you could<br />ever dream of</h1>
     </header>
     <main>
-      <button id="first-cta" onclick="location.href='https://get.drinkwim.com/signup/'" type="button">
+      <a class='cta' id='top-cta' href='https://get.drinkwim.com/signup/' >
           Request a pass
-      </button>
+      </a>
       <img class="bottles" alt="bottles" src="images/bottle-row.png">
       <p class="shoesText">
           Enjoy more of the refreshments you love, as often as you want, without any of the waste.
@@ -75,9 +85,9 @@
         <img class="squareLeft" src="images/social-photo-1.png">
         <img class="squareRight" src="images/social-photo-2.png">
       </section>
-      <button onclick="location.href='https://get.drinkwim.com/signup/'" type="button">
+      <a class='cta' id='bottom-cta' href='https://get.drinkwim.com/signup/'>
           Request a pass
-      </button>
+      </a>
       <p class="underButtonText">
           Reg. $19/month.<br>
           Your first month is free.
