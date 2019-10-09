@@ -20,27 +20,6 @@
     });
     }}();
   </script>
-  <script type="text/javascript">
-    var link = document.getElementById('top-cta');
-    analytics.trackLink(link, 'CTA Clicked', {
-      location: 'top',
-      color: 'Wim blue',
-      text: 'Request a pass',
-      type: 'Button',
-      pageTitle: document.title
-    });
-  </script>
-  <script type="text/javascript">
-    var link = document.getElementById('bottom-cta');
-    analytics.trackLink(link, 'CTA Clicked', {
-      location: 'bottom',
-      color: 'Wim blue',
-      text: 'Request a pass',
-      type: 'Button',
-      pageTitle: document.title
-    });
-  </script>
-
 </head>
 
 <body>
@@ -144,4 +123,24 @@
     </footer>
   </div>
 </body>
+<script type="text/javascript">
+  var link = document.getElementById('top-cta');
+  analytics.trackLink(link, 'CTA Clicked', {
+    location: 'top',
+    color: 'Wim blue',
+    text: 'Request a pass',
+    type: 'Button',
+    pageTitle: document.title
+  });
+</script>
+<script type="text/javascript">
+  var link = document.getElementById('bottom-cta');
+  analytics.trackLink(link, 'CTA Clicked', {
+    location: 'bottom',
+    color: 'Wim blue',
+    text: 'Request a pass',
+    type: 'Button',
+    pageTitle: document.title
+  });
+</script>
 </html>
