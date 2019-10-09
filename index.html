@@ -20,6 +20,16 @@
     });
     }}();
   </script>
+  <script type="text/javascript">
+    var link = document.getElementById('first-cta');
+    analytics.trackLink(link, 'CTA Clicked', {
+      location: 'top',
+      color: 'Wim blue',
+      text: 'Request a pss',
+      type: 'Button',
+      pageTitle: document.title
+    });
+  </script>
 
 </head>
 
@@ -30,7 +40,7 @@
       <h1>All the seltzer you could<br />ever dream of</h1>
     </header>
     <main>
-      <button onclick="location.href='https://get.drinkwim.com/signup/'" type="button">
+      <button id="first-cta" onclick="location.href='https://get.drinkwim.com/signup/'" type="button">
           Request a pass
       </button>
       <img class="bottles" alt="bottles" src="images/bottle-row.png">
